@@ -2,7 +2,7 @@
 
 # Twitch API Php et Javascript
 
-J'ai mis au point, plusieurs version afin d'avoir plusieurs possibilité.  
+J'ai mis au point, plusieurs versions afin d'avoir plusieurs possibilités.  
 
 Dans ce tutoriel, vous allez apprendre à vous servire de mon code mais surtout comment utiliser le twitch api.  
 Vous trouverez aussi un code en Javascript, ce code je l'ai trouvé sur le net, et je n'y est pas touché.  
