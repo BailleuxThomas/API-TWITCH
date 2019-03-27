@@ -24,7 +24,7 @@ const user = "solary";
 ```
 # Table des matières
 
-1. [Introduction](../.) Pouvoir utiliser une api et la comprendre.
+1. [Introduction](../API-TWITCH) Pouvoir utiliser une api et la comprendre.
     1. [API Twitch C'est quoi?](../API) Introduction à l'api twitch.
 2. [Php version 1](./v1) Affiche si une personne est en ligne ou non.
     1. [Php version 2](../v2) Affiche si une personne est en ligne ou non avec une image.
