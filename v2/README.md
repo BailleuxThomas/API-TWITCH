@@ -9,8 +9,8 @@ Quand on regarde sur la Version 1, le petit problème était que si dans notre t
 
 Alors pour se faire, on va sauvegarder toute les informations dans deux variables.
 
-$ONLINE .=
-$OFFLINE .=
+$ONLINE .=   
+$OFFLINE .=    
 
 Et plus tard on va afficher dans l'ordre qu'on veut.
 
