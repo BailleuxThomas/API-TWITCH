@@ -24,10 +24,10 @@ const user = "solary";
 ```
 # Table des matières
 
-1. [Introduction](#Introduction) Pouvoir utiliser une api et la comprendre.
-    1. [API Twitch C'est quoi?](./API) Introduction à l'api twitch.
+1. [Introduction](../#Introduction) Pouvoir utiliser une api et la comprendre.
+    1. [API Twitch C'est quoi?](../API) Introduction à l'api twitch.
 2. [Php version 1](./v1) Affiche si une personne est en ligne ou non.
-    1. [Php version 2](./v2) Affiche si une personne est en ligne ou non avec une image.
-    2. [Php version 3 pannel admin](./v3%20admin) Affiche si une personne est en ligne ou non avec une image, un pannel admin est crée.
-3. [Javascript](./javascript)
-    1. [Javascript Ajax](./javascript/v1) Page déjà construite avec disign.
+    1. [Php version 2](../v2) Affiche si une personne est en ligne ou non avec une image.
+    2. [Php version 3 pannel admin](../v3%20admin) Affiche si une personne est en ligne ou non avec une image, un pannel admin est crée.
+3. [Javascript](#)
+    1. [Javascript Ajax](./v1) Page déjà construite avec disign.
