@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Twitch Example</title>
+  <meta name="description" content="TwitchJS Example">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="enligne">
+
+</div>
+  <script>
+
+const user = "solary";
+
+  $.getJSON('https://api.twitch.tv/kraken/streams/'+user+'?client_id=b6bustu47nbmaftgi0v8tldtt4jqcye', function(c) {
+    setInterval(function(){
+    if (c.stream == null) {
+    console.log("Offline");
+  } else {
+    console.log("Online");
+  }
+}); }, 30000);
+
+  </script>
+</body>
+
+</html>

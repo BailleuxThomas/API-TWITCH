@@ -1,0 +1,13 @@
+.twitch {
+  margin-top: 30px;
+}
+.twitch a {
+  font-size: 30px;
+  font-style: none;
+  color: #6441A4;
+}
+.twitch a:hover {
+  color: orangered;
+}
+
+/*# sourceMappingURL=style.css.map */

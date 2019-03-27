@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitch.tv Streams</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 text-center title">
+                   <a href="https://www.twitch.tv/" target="_blank"><img src="https://res.cloudinary.com/dplpq72kg/image/upload/v1465261830/Twitch_Logo_White_xqyqsg.png" alt="twitch" class="logo">
+                   <img src="https://res.cloudinary.com/dplpq72kg/image/upload/v1465261885/twitch_icon_tzbhft.png" class="icon" alt="twitch-icon"></a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-xs-12 col-sm-8 col-sm-offset-2 col-md-offset-3 text-center form-group">
+                    <form role="form" id="live-search" action="">
+                      <fieldest>
+                        <input type="text" placeholder="Search..." class="form-control text-input" name="search" id="filter" value="" autocomplete="off"></input>
+                      </fieldest>
+                    </form>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4 col-sm-offset-4 col-xs-12 sort">
+                <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default all">All</button>
+                  </div>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default live">Live</button>
+                  </div>
+                  <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-default off">Offline</button>
+                  </div>
+                </div>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="gallery col-xs-12 text-center">  
+                    </div>
+                </div>
+                  <div class='row text-center add'>
+                    <a role='button' class='newChannel' data-toggle="modal" data-target='#addChannel'>
+                      <h3>Add channel</h3>
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </a>
+                  </div>
+              <!-- add new channel modal -->
+              <!-- Modal -->
+              <div class="modal fade" id="addChannel" role="dialog">
+                <div class="modal-dialog">
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4>Add a new twitch channel</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      <div class='input-group'>
+                        <input type='text' class='form-control' placeholder="Channel name" aria-describedby='add-channel' id='channelVal'>
+                      </div>
+                      <div class='text-right'>          
+                        <button type="button" class="btn btn-default add-btn" data-dismiss="modal">Add</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            </div>
+              <div class="navbar navbar-static-bottom"><a href="https://emmacraddock.github.io/" target="_blank"><footer class="text-center footer"><a href="https://emmacraddock.github.io/" target="_blank"><p>&copy; Emma Craddock 2016.</p></a></div>
+            </footer> 
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
