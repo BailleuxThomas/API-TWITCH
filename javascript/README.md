@@ -1,8 +1,8 @@
 #AJAX
 
-Ce code fonctionne pour afficher si une personne est en ligne ou non via la console.    
+Ce code fonctionne pour afficher si une personne est en ligne ou non, via la console.
 
-Pourquoi en javascript et non php ? Parce que le code javascript permet de rafraichir le code sans forcer le rafraichissement d'une page entière.   
+Pourquoi en JavaScript et non PHP ? Parce que le code JavaScript permet de rafraichir le code sans forcer le rafraichissement d'une page entière.
 
 
 ```

@@ -5,14 +5,14 @@ Quels sont les changements ?
 ```$users = array('test','solaryhs', 'solary', 'doigby','solaryfortnite');```
 
 
-Quand on regarde sur la Version 1, le petit problème était que si dans notre tableau les premiers joueurs étaient hors ligne sa rendait un rendu dégueulasse. 
+Quand on regarde sur la Version 1, le petit problème était que si dans notre tableau les premiers joueurs étaient hors ligne ça donnait un rendu peu esthétique.
 
-Alors pour se faire, on va sauvegarder toute les informations dans deux variables.
+Alors pour se faire, on va sauvegarder toutes les informations dans deux variables.
 
 $ONLINE .=   
 $OFFLINE .=    
 
-Et plus tard on va afficher dans l'ordre qu'on veut.
+Plus tard, on affichera dans l'ordre qu'on désire.
 
 Exemple:
 

@@ -1,16 +1,16 @@
 # CODE JAVASCRIPT
 
-Ce code n'a pas été crée par mes propres mains, j'ai trouvé ce code via codepen. [Emmacraddock](https://codepen.io/flem/embed/zBvoYo/)   
+Ce code n'a pas été créé de mes propres mains, je l’ai trouvé via codepen. [Emmacraddock](https://codepen.io/flem/embed/zBvoYo/)   
 
-Il est facile d'utiliser et bien foutu.   
+Il est facile d'utilisation et facilement compréhensible.  
 
 
 Client_id = votre clé twitch.   
 
-Il y est 4x dans ce code, je sais c'est chiant mais faudra la remplacer.   
+Il est présent 4 fois dans ce code, il faudra le remplacer. 
 
 
-Je vous ai laissé la clé de la personne qui la crée en guise d'exemple.   
+Je vous ai laissé la clé de la personne qui l'a créée en guise d'exemple. 
 
 ```var arr = ['ogaminglol','montanablack88','alderiate','solaryhs','solary','tonton', 'karnackz', 'formal', 'chrismd10']```
 

@@ -3,14 +3,14 @@
 
 Pour commencer voici le lien que twitch développeur donne afin de voir un rendu.
 
-```https://api.twitch.tv/kraken/streams/``` On va s'attaquer au channel(utilisateur twitch exemple: solary) une fois que s'est fait, on va s'attaquer au client_id (c'est nous).  
+```https://api.twitch.tv/kraken/streams/``` On va s'attaquer au channel ( utilisateur twitch exemple: solary) une fois que c'est fait, on va s'occuper au client_id (c'est nous).
 
-Le lien fini devrait donner ceci:    
+Le lien fini devrait donner ceci: 
 
 ```https://api.twitch.tv/kraken/streams/?channel=solary&client_id=b6bustu47nbmaftgi0v8tldtt4jqcye``` (FAKE CLÉ :D).   
 
 
-Tester le lien dans votre navigateur "FIREFOX DEVELOPPEUR" le plus optimisé(mon avis).
+Tester le lien dans votre navigateur "FIREFOX DÉVELOPPEUR" le plus optimisé (mon avis).
 
 <img src="../img/4.png" height="600" />
 
@@ -34,18 +34,18 @@ for ($i = 0; $i < count($users); $i++) {
 ?> 
 ```
 
-Dans mon code ci-dessus, vous-trouverez que ma condition touche directement le [streams]
+Dans mon code ci-dessus, vous trouverez que ma condition touche directement le [streams]
 
 <img src="../img/5.png" height="600" />
 
 
-Ma condition dit que si le tableau [streams] est différent de rien du tout(null) alors il met en ligne, si il y a rien dedans alors il met pas en ligne.
+Ma condition dit que : Si le tableau [streams] est différent de rien du tout ( null ) alors il met en ligne, s’il n’y a rien dedans alors il ne met pas en ligne.
 
-### Afficher le flux du stream en image 
+### Afficher le flux du stream en image
 
 Nous avons la commande ``` echo ('<img src="' . $json_array['streams'][0]['preview']['large'] . ' " alt="">'); ```
 
-On peu l'afficher en tout 
+On peut l'afficher en:
 
 - petit = small
 - moyen = medium
@@ -58,7 +58,7 @@ Pour cela on va utiliser une commande fixe et on va juste changer la taille.
 
  ### Afficher le flux du stream
 
- On va s'attaquer au ```['streams'][0]['channel']['display_name']``` p  our qu'il prenne bien en compte le pseudo du joueur.
+On va s'attaquer au ```['streams'][0]['channel']['display_name']``` pour qu'il prenne bien en compte le pseudo du joueur.
 
  ```echo ('<iframe src="https://player.twitch.tv/?channel='.$json_array['streams'][0]['channel']['display_name'].'" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>')```   
  
